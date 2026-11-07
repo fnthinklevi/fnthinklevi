@@ -1,10 +1,16 @@
 <!-- ============================================================
   fnthinklevi · GitHub Profile README
-  说明：
-  1) 贪吃蛇动画与 3D 贡献图由 GitHub Actions 自动生成（见本项目 .github/workflows/），
-     需要把两个 yml 放入 fnthinklevi/fnthinklevi 仓库后手动触发一次。
-  2) 各特效服务的本地实现版本见本项目的 index.html（纯本地渲染，无外部依赖）。
+  Notes:
+  1) The snake animation and 3D contribution graph are auto-generated
+     by GitHub Actions (see .github/workflows/). Trigger them manually
+     once after placing the yml files in the fnthinklevi/fnthinklevi repo.
+  2) A local-only rendering of the profile effects is available in
+     index.html (no external dependencies).
 ============================================================ -->
+
+<p align="center">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a>
+</p>
 
 <div align="center">
 
@@ -16,8 +22,8 @@
     <a href="https://github.com/fnthinklevi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
     <a href="mailto:fnthinklevi@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
     <a href="https://orcid.org/0009-0003-3958-7865"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
-    <img src="https://komarev.com/ghpvc/?username=fnthinklevi&style=for-the-badge&color=7C3AED&label=VIEWS" alt="页面访问次数" />
-    <img src="https://img.shields.io/github/stars/fnthinklevi?affiliations=OWNER&style=for-the-badge&color=06B6D4&labelColor=0d1117" alt="星标" />
+    <img src="https://komarev.com/ghpvc/?username=fnthinklevi&style=for-the-badge&color=7C3AED&label=VIEWS" alt="Profile views" />
+    <img src="https://img.shields.io/github/stars/fnthinklevi?affiliations=OWNER&style=for-the-badge&color=06B6D4&labelColor=0d1117" alt="Stars" />
     <a href="https://github.com/fnthinklevi/fnthinklevi.github.io"><img src="https://img.shields.io/badge/Use%20My%20Website%20Template-06B6D4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="My Website Template" /></a>
   </p>
 </div>
@@ -26,11 +32,11 @@
 
 ## 🧠 About Me
 
-- 📱 正在做 **Android 应用开发**：Kotlin / Java，关注性能、架构与用户体验
-- 🕊️ 同时用 **Flutter / Dart** 做跨端应用，一套代码多端运行
-- 🌐 也在做 **网站开发**：从页面还原、交互逻辑到接口联调与部署上线
-- 💬 可以聊聊 **Android · Flutter · Dart · Web 前端**
-- ⚡ 一句话：*Mobile-First · Cross-Platform · Web-Ready*
+- 📱 Building **Android apps** with Kotlin / Java — focused on performance, architecture & UX
+- 🕊️ Crafting cross-platform apps with **Flutter / Dart** — one codebase, multiple platforms
+- 🌐 Also doing **web development** — from pixel-perfect UIs to API integration & deployment
+- 💬 Let's talk about **Android · Flutter · Dart · Web Frontend**
+- ⚡ In one line: *Mobile-First · Cross-Platform · Web-Ready*
 
 `Android` `Flutter` `Dart` `Kotlin` `Java` `JavaScript` `HTML/CSS` `Git`
 
@@ -78,7 +84,7 @@
 </div>
 
 <p align="center">
-  <i>Thanks for visiting — let's build something intelligent together.</i>
+  <i>Thanks for visiting — let's build something great together.</i>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4E7FD4,100:06B6D4&height=120&section=footer&animation=twinkling" width="100%"/>
