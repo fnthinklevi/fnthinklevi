@@ -1,0 +1,35 @@
+# 生成贡献贪吃蛇动画（对应 README 中的 github-contribution-grid-snake[-dark].svg）
+# 使用方法：把本文件放入 fnthinklevi/fnthinklevi 仓库的 .github/workflows/ 目录，
+# 首次在 Actions 页面手动触发（workflow_dispatch），之后每天自动更新到 output 分支。
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "12 0 * * *"   # 每天 UTC 00:12
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

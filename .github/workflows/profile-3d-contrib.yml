@@ -1,0 +1,34 @@
+# 生成 3D 贡献城市图（对应 README 中的 profile-3d-contrib/profile-night-rainbow.svg）
+# 使用方法：把本文件放入 fnthinklevi/fnthinklevi 仓库的 .github/workflows/ 目录，
+# 首次在 Actions 页面手动触发（workflow_dispatch），生成的 SVG 会提交到 main 分支。
+name: Profile 3D Contrib
+
+on:
+  schedule:
+    - cron: "20 1 * * 6"   # 每周六 UTC 01:20
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/*.svg
+          git commit -m "chore: update 3d contribution graph" || echo "no changes"
+          git push

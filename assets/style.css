@@ -1,0 +1,68 @@
+/* 本地实现页样式 —— 对应 GitHub 深色主题 */
+:root {
+  --bg: #0d1117;
+  --panel: #16161e;
+  --border: #30363d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+.page { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+/* 头尾波浪（capsule-render 本地实现） */
+#header-wave svg, #footer-wave svg { width: 100%; height: auto; display: block; }
+
+/* 打字机 */
+.typing-wrap { display: flex; justify-content: center; margin: 10px 0 6px; }
+.typing-wrap svg { max-width: 100%; }
+
+/* 徽章行 */
+.badge-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 6px 0 8px; }
+.badge-row a { text-decoration: none; line-height: 0; }
+
+/* 章节标题 */
+.section-title {
+  display: flex; align-items: center; justify-content: center; gap: 12px;
+  font-size: 26px; font-weight: 700; color: var(--text);
+  margin: 46px 0 22px;
+}
+.title-icon { display: inline-flex; }
+.title-icon svg { width: 32px; height: 32px; }
+
+/* 技能图标网格（skillicons.dev 本地实现） */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 58px);
+  gap: 9px;
+  justify-content: center;
+}
+.skill { line-height: 0; border-radius: 14px; transition: transform .18s ease, filter .18s ease; }
+.skill:hover { transform: translateY(-4px); filter: drop-shadow(0 6px 12px rgba(124, 58, 237, .45)); }
+.skill svg { display: block; }
+
+/* 统计卡片（profile-summary-cards 本地实现） */
+.cards-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.cards-row > * { width: 31%; min-width: 230px; }
+.cards-row svg { width: 100%; height: auto; display: block; border-radius: 12px; }
+.cards-row svg, .full-card svg { max-width: 100%; height: auto; display: block; border-radius: 12px; }
+.full-card { display: flex; justify-content: center; margin-bottom: 16px; }
+.full-card svg { width: 100%; max-width: 940px; }
+
+.thanks { text-align: center; color: var(--muted); font-style: italic; margin: 36px 0 14px; }
+
+@media (max-width: 720px) {
+  .skill-grid { grid-template-columns: repeat(6, 58px); }
+  .section-title { font-size: 22px; }
+}
+@media (max-width: 480px) {
+  .skill-grid { grid-template-columns: repeat(4, 58px); }
+}
