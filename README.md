@@ -22,6 +22,8 @@
   </p>
 </div>
 
+<div align="center">
+
 ## 🧠 About Me
 
 - 📱 正在做 **Android 应用开发**：Kotlin / Java，关注性能、架构与用户体验
@@ -31,6 +33,8 @@
 - ⚡ 一句话：*Mobile-First · Cross-Platform · Web-Ready*
 
 `Android` `Flutter` `Dart` `Kotlin` `Java` `JavaScript` `HTML/CSS` `Git`
+
+</div>
 
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
