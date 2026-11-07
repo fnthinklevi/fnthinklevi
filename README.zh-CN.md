@@ -22,7 +22,7 @@
     <a href="https://orcid.org/0009-0003-3958-7865"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
     <img src="https://komarev.com/ghpvc/?username=fnthinklevi&style=for-the-badge&color=7C3AED&label=VIEWS" alt="页面访问次数" />
     <img src="https://img.shields.io/github/stars/fnthinklevi?affiliations=OWNER&style=for-the-badge&color=06B6D4&labelColor=0d1117" alt="星标" />
-    <a href="https://github.com/fnthinklevi/fnthinklevi.github.io"><img src="https://img.shields.io/badge/Use%20My%20Website%20Template-06B6D4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="我的网站模板" /></a>
+    <a href="https://levi.fnthink.top"><img src="https://img.shields.io/badge/个人网站-06B6D4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="个人网站" /></a>
   </p>
 </div>
 
