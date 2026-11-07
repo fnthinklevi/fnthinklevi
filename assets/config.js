@@ -5,12 +5,12 @@ window.CONFIG = {
   // 基础信息
   username: "fnthinklevi",
   displayName: "fnthinklevi",
-  tagline: "AI4Data · AI Agents · Multimodal LLMs",
+  tagline: "Android · Flutter · Web Developer",
   typingLines: [
-    "AI4Data Researcher | AI Agent Builder",
-    "Multimodal LLM Explorer",
-    "Data-Driven · Agent-Powered · Vision-Aware",
-    "Building Agents that Think & Act",
+    "Android & Flutter Developer | Web Developer",
+    "Dart · Kotlin · Java · JavaScript",
+    "Mobile Apps · Websites · Cross-Platform",
+    "Building smooth apps & clean code",
   ],
 
   // 以下信息填好后，对应徽章会自动出现在页面上（留空则隐藏）
@@ -36,28 +36,27 @@ window.CONFIG = {
 
   // 语言占比（GitHub 官方语言配色）
   reposLanguages: [
-    { name: "Python",           pct: 35.8, color: "#3572A5" },
-    { name: "Jupyter Notebook", pct: 22.4, color: "#DA5B0B" },
-    { name: "TypeScript",       pct: 13.9, color: "#3178c6" },
-    { name: "JavaScript",       pct:  9.6, color: "#f1e05a" },
-    { name: "HTML",             pct:  7.2, color: "#e34c26" },
-    { name: "CSS",              pct:  5.4, color: "#563d7c" },
-    { name: "Other",            pct:  5.7, color: "#8b949e" },
+    { name: "Dart",        pct: 30.2, color: "#00B4AB" },
+    { name: "Kotlin",      pct: 18.5, color: "#A97BFF" },
+    { name: "JavaScript",  pct: 16.4, color: "#f1e05a" },
+    { name: "TypeScript",  pct: 14.2, color: "#3178c6" },
+    { name: "Java",        pct: 11.6, color: "#b07219" },
+    { name: "HTML",        pct:  9.1, color: "#e34c26" },
   ],
   commitLanguages: [
-    { name: "Python",           pct: 41.2, color: "#3572A5" },
-    { name: "Jupyter Notebook", pct: 18.7, color: "#DA5B0B" },
-    { name: "TypeScript",       pct: 14.3, color: "#3178c6" },
-    { name: "JavaScript",       pct: 11.5, color: "#f1e05a" },
-    { name: "Shell",            pct:  7.8, color: "#89e051" },
-    { name: "Dockerfile",       pct:  6.5, color: "#384d54" },
+    { name: "Dart",        pct: 33.5, color: "#00B4AB" },
+    { name: "Kotlin",      pct: 20.4, color: "#A97BFF" },
+    { name: "JavaScript",  pct: 15.8, color: "#f1e05a" },
+    { name: "TypeScript",  pct: 13.2, color: "#3178c6" },
+    { name: "Java",        pct:  9.6, color: "#b07219" },
+    { name: "HTML",        pct:  7.5, color: "#e34c26" },
   ],
 
   // 技能图标（顺序与 README 中 skillicons 一致）
   skills: [
-    "python", "cpp", "c", "java", "mysql", "pytorch", "tensorflow",
-    "mongodb", "linux", "matlab", "html", "css", "js", "git",
-    "vscode", "latex", "github", "docker",
+    "dart", "flutter", "androidstudio", "kotlin", "java", "js", "ts",
+    "html", "css", "nodejs", "mysql", "firebase", "mongodb", "docker",
+    "git", "github", "vscode", "linux",
   ],
 
   // capsule-render 渐变色

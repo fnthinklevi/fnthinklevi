@@ -121,5 +121,45 @@
         <path d="M39.5 27c2.4-.6 4.3-2.1 4.9-4.4-2.1.4-3.9 1.7-4.9 3.4z"/>
       </g>
       <path fill="none" stroke="#2496ed" stroke-width="1.8" stroke-linecap="round" d="M10 40.5h6.5m4.5 0h6.5m4.5 0h6.5"/>`,
+
+    kotlin: `
+      <defs>
+        <linearGradient id="ktg" x1="10" y1="10" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#e44857"/><stop offset="1" stop-color="#c711e1"/>
+        </linearGradient>
+      </defs>
+      <path d="M10 10h28v14L24 38H10z" fill="url(#ktg)"/>`,
+
+    dart: `
+      <path fill="#13b9fd" d="M23 6 10 19l13 13V19z"/>
+      <path fill="#0175c2" d="M23 6l13 13-13 13V19z"/>`,
+
+    flutter: `
+      <path fill="#4fc3f7" d="M31.5 6 10 27.5l7 7L38.5 13z"/>
+      <path fill="#0288d1" d="M17 34.5l7 7L38.5 27l-7.5-7.5z"/>`,
+
+    androidstudio: `
+      <path fill="#3ddc84" d="M13 29a11 11 0 0 1 22 0z"/>
+      <circle cx="19" cy="25" r="1.7" fill="#10231b"/><circle cx="29" cy="25" r="1.7" fill="#10231b"/>
+      <path fill="none" stroke="#3ddc84" stroke-width="1.8" stroke-linecap="round" d="M14.5 15.5 17.5 18.5M33.5 15.5 30.5 18.5"/>
+      <path fill="#4285f4" d="M24 26 30.5 41 24 37.6 17.5 41z"/>
+      <path fill="#a3c7ff" d="M24 26l3.4 8-3.4 3.6z" opacity="0.7"/>`,
+
+    ts: `
+      <rect x="8" y="8" width="32" height="32" rx="4" fill="#3178c6"/>
+      <text x="24" y="30.5" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="15" fill="#fff">TS</text>`,
+
+    sass: `
+      <text x="24" y="30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="17" fill="#cd6799">Sass</text>`,
+
+    nodejs: `
+      <path fill="#339933" d="M24 6.5 38.5 15v18L24 41.5 9.5 33V15z"/>
+      <text x="24" y="29.5" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="14" fill="#fff">N</text>`,
+
+    firebase: `
+      <path fill="#ffca28" d="M12 35 24 7v30z"/>
+      <path fill="#f57c00" d="M36 35 24 21v16z"/>
+      <path fill="#ffb300" d="M24 21l7.2 13.4L24 37z"/>
+      <path fill="none" stroke="#e8a030" stroke-width="1.2" stroke-linecap="round" d="M14 39h20"/>`,
   };
 })();

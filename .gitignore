@@ -1,2 +1,5 @@
 # 本地审查工具产物，不上传
 .mimosa/
+
+# Qoder 本地用量报告产物
+.qoder-credits/

@@ -8,9 +8,9 @@
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=200&section=header&text=fnthinklevi&fontSize=62&fontAlignY=40&animation=fadeIn&fontColor=white&desc=AI4Data%20%C2%B7%20AI%20Agents%20%C2%B7%20Multimodal%20LLMs&descAlignY=62&descSize=17" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=200&section=header&text=fnthinklevi&fontSize=62&fontAlignY=40&animation=fadeIn&fontColor=white&desc=Android%20%C2%B7%20Flutter%20%C2%B7%20Web&descAlignY=62&descSize=17" />
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=600&lines=AI4Data+Researcher+%7C+AI+Agent+Builder;Multimodal+LLM+Explorer;Data-Driven+%C2%B7+Agent-Powered+%C2%B7+Vision-Aware;Building+Agents+that+Think+%26+Act)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=600&lines=Android+%26+Flutter+Developer+%7C+Web+Developer;Dart+%C2%B7+Kotlin+%C2%B7+Java+%C2%B7+JavaScript;Mobile+Apps+%C2%B7+Websites+%C2%B7+Cross-Platform;Building+smooth+apps+%26+clean+code)](https://git.io/typing-svg)
 
   <p align="center">
     <a href="https://github.com/fnthinklevi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -24,13 +24,13 @@
 
 ## 🧠 About Me
 
-- 🔭 正在做 **AI for Data**：LLM Agent 编排、工具调用与多模态数据流水线
-- 🌱 正在探索 **RAG 评测 · Agent 记忆机制 · 多模态理解**
-- 👯 希望协作 **数据驱动型开源项目 / AI 应用**
-- 💬 可以聊聊 **Python · PyTorch · 数据工程 · LLM 应用**
-- ⚡ 一句话：*Data-Driven · Agent-Powered · Vision-Aware*
+- 📱 正在做 **Android 应用开发**：Kotlin / Java，关注性能、架构与用户体验
+- 🕊️ 同时用 **Flutter / Dart** 做跨端应用，一套代码多端运行
+- 🌐 也在做 **网站开发**：从页面还原、交互逻辑到接口联调与部署上线
+- 💬 可以聊聊 **Android · Flutter · Dart · Web 前端**
+- ⚡ 一句话：*Mobile-First · Cross-Platform · Web-Ready*
 
-`Python` `PyTorch` `LLM Agents` `RAG` `Multimodal` `Data Engineering` `Docker`
+`Android` `Flutter` `Dart` `Kotlin` `Java` `JavaScript` `HTML/CSS` `Git`
 
 <h2 align="center">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
@@ -38,14 +38,7 @@
 </h2>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,java,mysql,pytorch,tensorflow,mongodb,linux,matlab,html,css,js,git,vscode,latex,github,docker&perline=9" />
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fnthinklevi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fnthinklevi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Top languages" />
+  <img src="https://skillicons.dev/icons?i=dart,flutter,androidstudio,kotlin,java,js,ts,html,css,nodejs,mysql,firebase,mongodb,docker,git,github,vscode,linux&perline=9" />
 </div>
 
 <h2 align="center">
